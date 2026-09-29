@@ -5,7 +5,6 @@ namespace gamegam\PortalPlugin;
 use gamegam\ARAServer\Server\ServerEventLister;
 use gamegam\PortalPlugin\cmd\PortalCommand;
 use gamegam\PortalPlugin\event\EventListener;
-use platz1de\EasyEdit\task\editing\move\MoveTask;
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
