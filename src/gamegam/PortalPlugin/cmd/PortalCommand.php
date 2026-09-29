@@ -18,7 +18,7 @@ class PortalCommand extends Command implements Form
          string $portal = ""
     )
     {
-        parent::__construct("포탈관리", "포탈을 생성합니다.");
+        parent::__construct("포탈관리", "포탈을 관리합니다.");
         $this->setPermission(DefaultPermissionNames::BROADCAST_ADMIN);
         $this->portal = $portal;
     }
